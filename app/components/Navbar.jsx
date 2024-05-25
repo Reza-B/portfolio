@@ -30,7 +30,10 @@ const Navbar = () => {
 					<a href="#projects">Projects</a>
 				</li>
 			</ul>
-			<button>Contact Me</button>
+			<div>
+				<button style={{ marginRight: "10px" }}>Download Resume</button>
+				<button>Contact Me</button>
+			</div>
 			<button
 				id="menuButton"
 				onclick={openMenu()}>
